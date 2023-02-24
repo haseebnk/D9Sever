@@ -6,7 +6,7 @@
     <script src="/socket.io/socket.io.js"></script>
     <script>
         const socket = io();
-        socket.on('connect', () => {
+        socket.on('connection', () => {
             console.log('Connected to Socket.io server!');
         });
     </script>
